@@ -1,0 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  /* mặc định 2 rem = 16px | chuyển còn 62.5% -> 1 rem = 10px */
+  font-size: 62.5%;
+}
+/* Khôi phục lại cỡ chữ mặc đinh theo rem */
+body {
+  font-size: 1.6rem;
+}
